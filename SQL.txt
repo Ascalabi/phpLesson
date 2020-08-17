@@ -1,0 +1,9 @@
+create table posts (
+	id int(11) not null PRIMARY KEY AUTO_INCREMENT, 
+    subject varchar(128) not null,
+    content varchar(1000) not null,
+    date datetime not null
+);
+
+
+insert into posts (subject, content, date) VALUES ('The subject of the post', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2020-7-20 13:36:33');
